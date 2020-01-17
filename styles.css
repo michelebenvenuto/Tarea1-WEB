@@ -1,0 +1,68 @@
+html, body{
+    font-size: 8px;
+    font-family: sans-serif;
+}
+header{
+    height: 8rem;
+    display: flex;
+    position: relative;
+}
+.header__leftside{
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+.header__rightside{
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+.title{
+    color: turquoise;
+    padding: 2rem;
+    font-size: 3rem;
+}
+.descriptions{
+    color: grey;
+    padding: 3rem;
+    font-size: 2rem;
+}
+.password{
+    color: turquoise;
+    font-size: 2rem;
+    right: 24rem;
+    position: absolute;
+    padding: 2rem;
+}
+.user{
+    color:navy;
+    font-size: 2rem;
+    right: 0rem;
+    position: absolute;
+    padding: 2rem;
+}
+section{
+    height: 100%;
+    display: flex;
+    background: yellow;
+    position: relative;
+}
+.section__leftside{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    background-color: blue;
+    position: relative;
+}
+.section__rightside{
+    width: 70%;
+    height: 100%;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.packages{
+    display: flex;
+    flex-direction: column;
+}
