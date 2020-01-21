@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/beebf84139.js" crossorigin="anonymous"></script>
     <title>Maquetacion</title>
 </head>
 <body>
@@ -14,8 +15,8 @@
             <div class="descriptions">libros electronicos</div>
         </div>
         <div class="header__rightside">
-            <div class="password"> Contraseña</div>
-            <div class="user">Michele Benvenuto</div>
+            <div class="password"><i class="fas fa-unlock"></i> Contraseña</div>
+            <div class="user">Michele Benvenuto <i class="fas fa-chevron-down"></i></div>
         </div>
     </header>
     <section>
@@ -33,13 +34,15 @@
                     <li><a href="" class="descriptions">Física 3</a></li>
                 </ul>
                 <p class="descriptions">Agregar paquete</p>
-                <input type="text" placeholder="Esctiba el nombre del paquete aqui">
+                <input type="text" placeholder="Esctiba el nombre aqui">
             </div>
         </div>
         <div class="section__rightside">
             <div class="rightside__title">
                 <div class="title">
                     Primero Basico
+                    <i class="far fa-edit"></i>
+                    <i class="fas fa-trash-alt"></i>
                     <button class="green">
                         Agregar Libro
                     </button>
@@ -48,12 +51,78 @@
                     </button>
                 </div>
                 <div class="lan">
-                    <div>Idioma Español</div>
-                    <div>Idioma Ingles</div> 
+                    <button>Idioma Español</button>
+                    <i class="fas fa-trash-alt"></i>
+                    <button>Idioma Ingles</button> 
+                    <i class="fas fa-trash-alt"></i>
                 </div>
             </div>
-            
-            
+            <div class="book_container">
+                <div class="book">
+                    <div class="book_image" style="background-image: url(https://www.tn23.tv/2019/02/16/hace-81-anos-se-escribio-el-principito-por-un-accidente-de-aviacion-en-guatemala/71wzzmbvvjl/)"></div>
+                    <div class="book_footer">
+                        <div class="book_data">
+                            <div class="book_title">
+                                EL principito
+                            </div>
+                            <div class="book_size">
+                                15 MB
+                            </div>
+                        </div>
+                        <div class="book_actions">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="book_image" style="background-image: url(https://images-eu.ssl-images-amazon.com/images/I/31AfmhYzOXL.jpg)"></div>
+                    <div class="book_footer">
+                        <div class="book_data">
+                            <div class="book_title">
+                                El Manifesto Comunista
+                            </div>
+                            <div class="book_size">
+                                20 MB
+                            </div>
+                        </div>
+                        <div class="book_actions">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="book_image" style="background-image: url(https://pictures.abebooks.com/isbn/9788445003022-es.jpg)"></div>
+                    <div class="book_footer">
+                        <div class="book_data">
+                            <div class="book_title">
+                                El Señor de los anillos
+                            </div>
+                            <div class="book_size">
+                                15 MB
+                            </div>
+                        </div>
+                        <div class="book_actions">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="book_image" style="background-image: url(https://pictures.abebooks.com/isbn/9788494277863-us.jpg)"></div>
+                    <div class="book_footer">
+                        <div class="book_data">
+                            <div class="book_title">
+                                El conde de Montecristo
+                            </div>
+                            <div class="book_size">
+                                15 MB
+                            </div>
+                        </div>
+                        <div class="book_actions">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
